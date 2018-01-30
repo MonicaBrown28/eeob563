@@ -1,0 +1,59 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Jan 30 10:25:06 2018]
+[!
+>Data file = cob_aa.nxs
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 382 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        198 characters are constant
+>        61 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 123
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 100000
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search aborted during replicate #42534 (while swapping on tree #3)
+>  Total number of rearrangements tried = 511055917
+>  Score of best tree(s) found = 743
+>  Number of trees retained = 2
+>  Time used = 00:03:46 (CPU time = 00:03:36.7)
+]
+	Translate
+		1 Platypus,
+		2 Echidna,
+		3 Aardvark,
+		4 Flying_fox,
+		5 Pig,
+		6 Dog,
+		7 Cat,
+		8 Whale,
+		9 Armadillo,
+		10 Rabbit,
+		11 Mouse,
+		12 Tenrec,
+		13 Tree_shrew,
+		14 Opossum,
+		15 Wallaby,
+		16 Bandicoot,
+		17 Hedgehog,
+		18 Human,
+		19 Elephant,
+		20 Sloth
+		;
+tree 'PAUP_1' = [&U] (1:22,2:18,((((((3:19,((17:50,19:42):18,18:39):12):7,(6:18,7:24):9):10,(4:20,(5:12,8:32):7):8):7,(((9:22,12:34):14,13:37):6,(10:20,20:56):11):11):8,11:27):12,(14:19,(15:14,16:20):11):16):31);
+tree 'PAUP_2' = [&U] (1:22,2:18,((((((3:17,(18:33,(19:44,20:48):19):21):7,(6:18,7:24):10):9,(4:21,(5:12,8:32):6):9):5,(10:26,13:37):12):5,(((9:21,12:35):14,17:46):13,11:25):11):12,(14:20,(15:13,16:21):10):18):29);
+End;
